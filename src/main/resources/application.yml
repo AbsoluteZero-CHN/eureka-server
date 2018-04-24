@@ -1,0 +1,22 @@
+server:
+  port: 41
+
+
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defualt-zone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+logging:
+  level:
+    com:
+      netflix:
+        eureka: off
+        discovery: off
+spring:
+  application:
+    name: a-bootiful-client
