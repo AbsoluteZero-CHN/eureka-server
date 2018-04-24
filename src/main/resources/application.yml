@@ -19,4 +19,4 @@ logging:
         discovery: off
 spring:
   application:
-    name: a-bootiful-client
+    name: eureka-server
