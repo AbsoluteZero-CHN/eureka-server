@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: eureka-server
+
+server:
+  port: 45
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:44/eureka/  # 设置注册中心指向 peer2
