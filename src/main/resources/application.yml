@@ -1,7 +1,6 @@
 server:
   port: 41
 
-
 eureka:
   instance:
     hostname: 127.0.0.1
@@ -17,6 +16,9 @@ logging:
       netflix:
         eureka: off
         discovery: off
+
 spring:
   application:
     name: eureka-server
+  profiles:
+    active: peer1

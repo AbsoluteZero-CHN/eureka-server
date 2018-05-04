@@ -4,6 +4,7 @@ spring:
 
 server:
   port: 45
+
 eureka:
   instance:
     hostname: peer1
