@@ -1,5 +1,5 @@
 server:
-  port: 40
+  port: 41
 
 eureka:
   instance:
